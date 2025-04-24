@@ -1,1 +1,7 @@
 pixi.js
+http-server
+
+
+-- TO DO --
+npm install pixi.js
+npx http-server

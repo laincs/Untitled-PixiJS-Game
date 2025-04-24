@@ -10,5 +10,5 @@ let elapsed = 0.0;
 
 app.ticker.add((ticker) => {
     elapsed += ticker.deltaTime;
-    sprite.x = 100.0 + Math.cos(elapsed/50.0) * 100.0;
+    sprite.y = 100.0 + Math.cos(elapsed/50.0) * 100.0;
 });
